@@ -1,0 +1,81 @@
+.galeria-container-flex {
+    display: grid;
+    max-width: 100%;
+    text-align: center;
+}
+
+.content_13hv8io {
+    min-height: 100%
+}
+
+.ReactGridGallery_tile {
+    display: none;
+}
+
+.galeria-thumb {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 250px;
+}
+
+.galeria-thumb-casas {
+    grid-column-start: 1;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px #1f1e1e44;
+    height: 240px;
+    cursor: pointer;
+}
+
+.galeria-thumb-piscinas {
+    grid-column-start: 2;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px #1f1e1e44;
+    height: 240px;
+    cursor: pointer;
+}
+
+.galeria-thumb-telhados {
+    grid-column-start: 3;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px #1f1e1e44;
+    height: 240px;
+    cursor: pointer;
+}
+
+.galeria-thumb-servicos {
+    grid-column-start: 4;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px #1f1e1e44;
+    height: 240px;
+    cursor: pointer;
+}
+
+.galeria-thumb-telhados > img  {
+    width: 240px;
+    height: 240px;
+}
+
+.galeria-thumb-piscinas > img {
+    width: 240px;
+    height: 240px;
+}
+
+.galeria-thumb-casas  > img {
+    width: 240px;
+    height: 240px;
+}
+
+.galeria-thumb-servicos  > img {
+    width: 240px;
+    height: 240px;
+}
+
+h2 {
+    font-size: 22px;
+
+}

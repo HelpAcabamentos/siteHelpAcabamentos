@@ -1,0 +1,17 @@
+.container-slider-serivcos {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider-imagens-bg {
+    width: 80%;
+    margin: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slider-imagens-servicos {
+    height: 500px !important;
+    box-shadow: 2px 2px 2px 2px #1f1e1e44;
+}

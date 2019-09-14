@@ -1,0 +1,54 @@
+.footer-flex-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+}
+
+.footer-flex-container-onClick {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+}
+
+.footer-conteudo {
+    width: 100%;
+    height: 120px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-direitos {
+    width: 100%;
+    height: 30px;
+    background-color: yellow;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-redes-sociais {
+    margin: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-localizacao {
+    margin: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-insta {
+    margin: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+

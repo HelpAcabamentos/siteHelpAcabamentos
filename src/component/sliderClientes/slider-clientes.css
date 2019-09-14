@@ -1,0 +1,24 @@
+.container-slider {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.slider-imagens {
+    width: 85%;
+    margin: 20px 0 0 65px ;
+    cursor: pointer;
+}
+
+.slider-imagens-tamanho{
+    height: 80px !important;
+    width: 80px !important;
+    box-shadow: 2px 2px 2px 2px #1f1e1e44;
+}
+
+.slider-texto{
+    margin-top: 50px;
+    font-size: 24px;
+}

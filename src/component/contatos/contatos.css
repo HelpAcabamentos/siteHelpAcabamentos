@@ -1,0 +1,24 @@
+.contatos-info {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contatos-info > label {
+    margin: 20px;
+}
+
+.contatos-container-flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.contatos-mapa {
+    width: 80%;
+    box-shadow: 5px 5px 5px 5px #1f1e1e44;
+    margin-left: auto;
+    margin-right: auto;
+}
