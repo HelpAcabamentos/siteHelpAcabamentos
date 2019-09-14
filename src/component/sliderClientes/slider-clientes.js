@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './slider-clientes.css';
-import Slider from "react-slick";
-import Client1 from "../../images/client1.jpg"
 
 
 export default class SliderClientes extends Component {
@@ -22,17 +20,7 @@ export default class SliderClientes extends Component {
             <label>Alguns de Nossos Clientes: </label>
         </div>
         <div className="slider-imagens">
-          <Slider {...settings}>
-              <img className="slider-imagens-tamanho" src={Client1} />
-              <img className="slider-imagens-tamanho" src={Client1} />
-              <img className="slider-imagens-tamanho" src={Client1} />
-              <img className="slider-imagens-tamanho" src={Client1} />
-              <img className="slider-imagens-tamanho" src={Client1} />
-              <img className="slider-imagens-tamanho" src={Client1} />
-              <img className="slider-imagens-tamanho" src={Client1} />
-              <img className="slider-imagens-tamanho" src={Client1} />
-              <img className="slider-imagens-tamanho" src={Client1} />
-          </Slider>
+        
         </div>
       </div>
     );
