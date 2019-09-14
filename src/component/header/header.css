@@ -1,0 +1,37 @@
+.nav-bar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: red;
+}
+
+.logo {
+    margin: 30px;
+    justify-content: center;
+    width: 60%;
+}
+
+h1 {
+    font-size: 14px;
+    color: white;
+}
+
+h1:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.nav-bar-container-menu{
+    flex-direction: row;
+    display: flex;
+    float: right;
+}
+
+.nav-bar-home,
+.nav-bar-quem-somos,
+.nav-bar-fotos,
+.nav-bar-contatos {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
