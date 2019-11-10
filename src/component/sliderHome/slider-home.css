@@ -1,0 +1,95 @@
+.container-slider-serivcos {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider-imagens-bg {
+    width: 80%;
+    margin: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slider-imagens-servicos {
+    height: 500px !important;
+    box-shadow: 2px 2px 2px 2px #1f1e1e44;
+}
+
+
+.react-slideshow-zoom-wrapper {
+    width: 100%;
+    overflow: hidden;
+    height: 450px !important;
+}
+
+.react-slideshow-container .nav {
+    background: none !important;
+}
+
+.react-slideshow-container .nav span {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.react-slideshow-container .nav:first-of-type {
+    margin-right: -30px;
+    border-right: none;
+    border-top: none;
+}
+
+.react-slideshow-container .nav:first-of-type span {
+    margin-left: -75px !important; 
+    border-right: none;
+    border-top: none;
+}
+
+.react-slideshow-container .nav:last-of-type span {
+    margin-right: -75px !important;
+    border-left: none;
+    border-bottom: none;
+}
+
+.slide-container {
+    width: 70% !important;
+    margin: auto; }
+  
+  h3 {
+    text-align: center; }
+  
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 300px; 
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  
+  .each-fade {
+    display: flex;
+  }
+  
+  .each-fade .image-container {
+    width: 75%;
+    overflow: hidden;
+  }
+  
+  .each-fade .image-container img {
+    width: 100%;
+  }
+  
+  .each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+  }
